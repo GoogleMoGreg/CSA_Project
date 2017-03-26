@@ -73,13 +73,13 @@
 
 <script type="text/javascript">
     document.getElementById("btn_main").onclick = function () {
-        location.href = "http://localhost/CSA/main.html";
+        location.href = "http://localhost/CSA/main.php";
     };
     document.getElementById("btn_waterSched").onclick = function () {
-        location.href = "http://localhost/CSA/wateringsystem.html";
+        location.href = "http://localhost/CSA/wateringsystem.php";
     };
     document.getElementById("btn_ventMonitoring").onclick = function () {
-        location.href = "http://localhost/CSA/ventilationsystem.html";
+        location.href = "http://localhost/CSA/ventilationsystem.php";
     };
 </script>
 

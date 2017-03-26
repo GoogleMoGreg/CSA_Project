@@ -96,13 +96,13 @@
 
 <script type="text/javascript">
     document.getElementById("btn_main").onclick = function () {
-        location.href = "http://localhost/CSA/main.html";
+        location.href = "http://localhost/CSA/main.php";
     };
     document.getElementById("btn_waterSched").onclick = function () {
-        location.href = "http://localhost/CSA/wateringsystem.html";
+        location.href = "http://localhost/CSA/wateringsystem.php";
     };
     document.getElementById("btn_ventMonitoring").onclick = function () {
-        location.href = "http://localhost/CSA/ventilationsystem.html";
+        location.href = "http://localhost/CSA/ventilationsystem.php";
     };
 </script>
 
@@ -121,8 +121,12 @@
 
   <div class="tab-content">
     <div id="sunday" class="tab-pane fade in active">
-      
+         
+        <?php
+           echo 'Watering Schedule for Morning: 9:00';
+          ?>
     </div>
+
     
     <div id="monday" class="tab-pane fade">
       <h3>monday</h3>
@@ -161,4 +165,5 @@
 </footer>
 
 </body>
+
 </html>
